@@ -66,6 +66,17 @@ jobs:
       with:
         name: code-coverage
         path: coverage
+
+    - name: Check code coverage
+      run: |
+          threshold=60 # Replace with your desired minimum code coverage threshold
+
+          coverage=$(reportgenerator "-reports:coverage/coverage.cobertura.xml" "-reporttypes:TextSummary")
+
+          if (( $(echo "$coverage < $threshold" | bc -l) )); then
+            echo "Code coverage is below the minimum threshold ($threshold%)."
+            exit 1
+          fi
   
   coverage:
     needs: build-and-test
