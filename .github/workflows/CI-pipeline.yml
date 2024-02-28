@@ -75,7 +75,11 @@ jobs:
 
           if (( $(echo "$coverage < $threshold" | bc -l) )); then
             echo "Code coverage is below the minimum threshold ($threshold%)."
+            echo "Coverage: $coverage"
             exit 1
+          else
+            echo "Code coverage meets the minimum threshold."
+            echo "Coverage: $coverage"
           fi
   
   coverage:
