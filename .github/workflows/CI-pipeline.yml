@@ -1,0 +1,86 @@
+name: CI Pipeline
+
+permissions:
+  id-token: write
+  contents: read
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "master", "develop" ]
+jobs:
+  build-and-test:
+    environment: dev
+    env:
+      BUILD_CONFIG: 'Release'
+      SOLUTION: 'NielsenChannelsReporting/NielsenChannelsReporting.sln'
+      UNIT_TEST_PROJECT: './NielsenChannelsReporting/NielsenChannelsReporting.Tests/NielsenChannelsReporting.Tests.csproj'
+      
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore ${{env.SOLUTION}}
+    - name: Build
+      run: |
+        dotnet build ${{env.SOLUTION}} --configuration ${{env.BUILD_CONFIG}} --no-restore
+        echo "Build completed successfully"
+
+    - name: Run Unit Tests
+      run: |
+        dotnet test ${{env.UNIT_TEST_PROJECT}} --verbosity normal --no-restore --collect:"XPlat Code Coverage" --logger trx
+        echo "Unit tests completed successfully"
+    
+    ##- name: Generate coverage report
+      ##run: |
+          ##reportgenerator "-reports:$(find . -name '*.coverage')" "-targetdir:coverage" "-reporttypes:Html"
+    - name: Install ReportGenerator
+      run: |
+        dotnet tool install -g dotnet-reportgenerator-globaltool
+    
+    - name: Generate coverage report
+      run: |
+        reportgenerator "-reports:**/coverage.cobertura.xml" "-targetdir:coverage"
+          
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v2
+      with:
+        name: Coverage Report
+        path: coverage
+    
+    - name: Publish coverage report as GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./coverage
+        
+    - name: Publish code coverage report
+      uses: actions/upload-artifact@v2
+      with:
+        name: code-coverage
+        path: coverage
+  
+  coverage:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Download code coverage report
+        uses: actions/download-artifact@v2
+        with:
+          name: code-coverage
+
+      - name: Publish code coverage
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+    
