@@ -69,8 +69,8 @@ jobs:
     ## TestResults
     - name: Generate detailed coverage report
       run: |
-        reportgenerator "-reports:**/coverage.cobertura.xml" "-targetdir:coverage"
-          
+        reportgenerator "-reports:**/coverage.cobertura.xml" "-targetdir:coverage" "-filters:-[NielsenChannelsReporting.Infrastructure.Persistence]*"
+        
     - name: Upload detailed coverage report
       uses: actions/upload-artifact@v2
       with:
