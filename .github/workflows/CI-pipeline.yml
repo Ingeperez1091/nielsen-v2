@@ -7,7 +7,7 @@ permissions:
 on:
   workflow_dispatch:
   pull_request:
-    branches: [ "master", "develop" ]
+    branches: [ "main", "develop" ]
 jobs:
   build-and-test:
     environment: dev
