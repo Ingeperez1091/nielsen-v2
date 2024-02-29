@@ -18,6 +18,8 @@ jobs:
       
     runs-on: ubuntu-latest
     permissions:
+      issues: read
+      checks: write
       contents: write
       pull-requests: write
 
