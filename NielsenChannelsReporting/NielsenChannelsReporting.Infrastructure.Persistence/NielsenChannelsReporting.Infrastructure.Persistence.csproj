@@ -1,0 +1,138 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ActiveAliasChannelDatum.cs" />
+    <Compile Remove="Models\ActiveAliasStationId.cs" />
+    <Compile Remove="Models\ActivityAudit.cs" />
+    <Compile Remove="Models\AdminToolFeatureCarousel.cs" />
+    <Compile Remove="Models\Brand.cs" />
+    <Compile Remove="Models\BrandCapability.cs" />
+    <Compile Remove="Models\BrandCategory.cs" />
+    <Compile Remove="Models\BrandDetail.cs" />
+    <Compile Remove="Models\BrandGenreMapping.cs" />
+    <Compile Remove="Models\BrandImagesView.cs" />
+    <Compile Remove="Models\BrandImageType.cs" />
+    <Compile Remove="Models\BrandMatchProperty.cs" />
+    <Compile Remove="Models\BrandSynonymMapping.cs" />
+    <Compile Remove="Models\Carousel.cs" />
+    <Compile Remove="Models\ChangeLog.cs" />
+    <Compile Remove="Models\ChannelCategory.cs" />
+    <Compile Remove="Models\ChannelConfiguration.cs" />
+    <Compile Remove="Models\ChannelSetAlias.cs" />
+    <Compile Remove="Models\ChannelSetAliasType.cs" />
+    <Compile Remove="Models\ChannelSetsAudit.cs" />
+    <Compile Remove="Models\Chipset.cs" />
+    <Compile Remove="Models\Config.cs" />
+    <Compile Remove="Models\ConfigurationSet.cs" />
+    <Compile Remove="Models\ConfigurationSetLandingPageAssignment.cs" />
+    <Compile Remove="Models\CurrentPromo.cs" />
+    <Compile Remove="Models\CurrentQuery.cs" />
+    <Compile Remove="Models\CustomHeader.cs" />
+    <Compile Remove="Models\DeeplinkTemplate.cs" />
+    <Compile Remove="Models\DeviceCharacteristicLu.cs" />
+    <Compile Remove="Models\DevToolRole.cs" />
+    <Compile Remove="Models\DownloadDatum.cs" />
+    <Compile Remove="Models\ExcludedSourceId.cs" />
+    <Compile Remove="Models\FeatureCarousel.cs" />
+    <Compile Remove="Models\FeatureCarouselAlgorithm.cs" />
+    <Compile Remove="Models\FeatureCarouselSegment.cs" />
+    <Compile Remove="Models\FeatureCarouselSegmentFeatureItemPool.cs" />
+    <Compile Remove="Models\FeatureItem.cs" />
+    <Compile Remove="Models\FeatureItemAction.cs" />
+    <Compile Remove="Models\FeatureItemActionTypeLu.cs" />
+    <Compile Remove="Models\FeatureItemCultureAvailability.cs" />
+    <Compile Remove="Models\FeatureItemExcludedDeviceCharacteristic.cs" />
+    <Compile Remove="Models\FeatureItemImagePresentationLu.cs" />
+    <Compile Remove="Models\FeatureItemLabelLu.cs" />
+    <Compile Remove="Models\FeatureItemLinkTypeLu.cs" />
+    <Compile Remove="Models\FeatureItemMetadataScs15572CreatedRow.cs" />
+    <Compile Remove="Models\FeatureItemMetadatum.cs" />
+    <Compile Remove="Models\FeatureItemPool.cs" />
+    <Compile Remove="Models\FeatureItemPoolAlgorithm.cs" />
+    <Compile Remove="Models\FeatureItemPoolAssignment.cs" />
+    <Compile Remove="Models\FeatureItemPoolBkp20180105.cs" />
+    <Compile Remove="Models\FeatureItemRequiredDeviceCharacteristic.cs" />
+    <Compile Remove="Models\FeedUrl.cs" />
+    <Compile Remove="Models\FeedValidationHistory.cs" />
+    <Compile Remove="Models\FeedValidationHistoryInputFile.cs" />
+    <Compile Remove="Models\HarmonyAndMongoMetric.cs" />
+    <Compile Remove="Models\IndexStatus.cs" />
+    <Compile Remove="Models\LandingPage.cs" />
+    <Compile Remove="Models\LandingPage1.cs" />
+    <Compile Remove="Models\LandingPageCarouselMapping.cs" />
+    <Compile Remove="Models\LandingPageFeatureCarouselAssignment.cs" />
+    <Compile Remove="Models\LatestChange.cs" />
+    <Compile Remove="Models\MetadataPriority.cs" />
+    <Compile Remove="Models\MetricDetail.cs" />
+    <Compile Remove="Models\MetricSummary.cs" />
+    <Compile Remove="Models\MobileApp.cs" />
+    <Compile Remove="Models\MobileAppCountryMap.cs" />
+    <Compile Remove="Models\MobileAppGenre.cs" />
+    <Compile Remove="Models\MobileAppImage.cs" />
+    <Compile Remove="Models\Model.cs" />
+    <Compile Remove="Models\ModelDeviceCharacteristic.cs" />
+    <Compile Remove="Models\Navigation.cs" />
+    <Compile Remove="Models\NavigationType.cs" />
+    <Compile Remove="Models\Permission.cs" />
+    <Compile Remove="Models\Promo.cs" />
+    <Compile Remove="Models\PromoPlacement.cs" />
+    <Compile Remove="Models\PromoSchedule.cs" />
+    <Compile Remove="Models\PromoType.cs" />
+    <Compile Remove="Models\PromoTypePriority.cs" />
+    <Compile Remove="Models\ProvidersToExcludeForNielsen.cs" />
+    <Compile Remove="Models\Role.cs" />
+    <Compile Remove="Models\RolePermission.cs" />
+    <Compile Remove="Models\SizeBasisLu.cs" />
+    <Compile Remove="Models\Source.cs" />
+    <Compile Remove="Models\Source1.cs" />
+    <Compile Remove="Models\StationMatch.cs" />
+    <Compile Remove="Models\StationScore.cs" />
+    <Compile Remove="Models\Subcategory.cs" />
+    <Compile Remove="Models\SubcategoryContent.cs" />
+    <Compile Remove="Models\Tag.cs" />
+    <Compile Remove="Models\TagCategory.cs" />
+    <Compile Remove="Models\TagMapping.cs" />
+    <Compile Remove="Models\TemplateConfiguration.cs" />
+    <Compile Remove="Models\TemplateConfigurationTest.cs" />
+    <Compile Remove="Models\UniversalHubId.cs" />
+    <Compile Remove="Models\UniversalImage.cs" />
+    <Compile Remove="Models\UniversalIngestFingerprintsToIgnore.cs" />
+    <Compile Remove="Models\UniversalTemplateMapping.cs" />
+    <Compile Remove="Models\UniversalTranslationEntityIdOverride.cs" />
+    <Compile Remove="Models\UploadDatum.cs" />
+    <Compile Remove="Models\UsageAudit.cs" />
+    <Compile Remove="Models\UserAccount.cs" />
+    <Compile Remove="Models\UserReset.cs" />
+    <Compile Remove="Models\UserRole.cs" />
+    <Compile Remove="Models\VwActiveFeatureItem.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NielsenChannelsReporting.Application\NielsenChannelsReporting.Application.csproj" />
+  </ItemGroup>
+
+</Project>

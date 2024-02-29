@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NielsenChannelsReporting", "NielsenChannelsReporting\NielsenChannelsReporting.csproj", "{06F001B5-599B-4CD6-918A-B8EF9122B6EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NielsenChannelsReporting.Tests", "NielsenChannelsReporting.Tests\NielsenChannelsReporting.Tests.csproj", "{D0F2A74B-4A9F-4C94-8C61-8EC5CF2230F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Core", "2. Core", "{F31E029F-EA05-4700-9691-34D84627AA82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Application", "1. Application", "{F28B4A1E-50A8-48B7-83EC-CBFD4780A1A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{147706F2-B650-4413-A682-9185962672A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{4B75FBD9-254F-4C66-8FCD-E8C5C86B03BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Functions", "4. Functions", "{724711D7-28BE-4FD9-B83E-6D050E190FEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NielsenChannelsReporting.Domain", "NielsenChannelsReporting.Domain\NielsenChannelsReporting.Domain.csproj", "{6CF159A7-DCB4-40ED-9095-09AB039364EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NielsenChannelsReporting.Application", "NielsenChannelsReporting.Application\NielsenChannelsReporting.Application.csproj", "{ACE09F19-DD9E-4515-A487-A6AD56F6BE22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NielsenChannelsReporting.Infrastructure.Persistence", "NielsenChannelsReporting.Infrastructure.Persistence\NielsenChannelsReporting.Infrastructure.Persistence.csproj", "{7D3A543A-B0BB-49B5-AC9E-53FB957D841E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NielsenChannelsReporting.ExternalAdapters.UniversalAPI", "NielsenChannelsReporting.ExternalAdapters.UniversalAPI\NielsenChannelsReporting.ExternalAdapters.UniversalAPI.csproj", "{B929C1D9-048A-4882-AB00-BD0E65AFAE1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F001B5-599B-4CD6-918A-B8EF9122B6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F001B5-599B-4CD6-918A-B8EF9122B6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F001B5-599B-4CD6-918A-B8EF9122B6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F001B5-599B-4CD6-918A-B8EF9122B6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F2A74B-4A9F-4C94-8C61-8EC5CF2230F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F2A74B-4A9F-4C94-8C61-8EC5CF2230F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F2A74B-4A9F-4C94-8C61-8EC5CF2230F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F2A74B-4A9F-4C94-8C61-8EC5CF2230F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF159A7-DCB4-40ED-9095-09AB039364EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF159A7-DCB4-40ED-9095-09AB039364EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF159A7-DCB4-40ED-9095-09AB039364EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF159A7-DCB4-40ED-9095-09AB039364EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE09F19-DD9E-4515-A487-A6AD56F6BE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE09F19-DD9E-4515-A487-A6AD56F6BE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE09F19-DD9E-4515-A487-A6AD56F6BE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE09F19-DD9E-4515-A487-A6AD56F6BE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3A543A-B0BB-49B5-AC9E-53FB957D841E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3A543A-B0BB-49B5-AC9E-53FB957D841E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3A543A-B0BB-49B5-AC9E-53FB957D841E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3A543A-B0BB-49B5-AC9E-53FB957D841E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B929C1D9-048A-4882-AB00-BD0E65AFAE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B929C1D9-048A-4882-AB00-BD0E65AFAE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B929C1D9-048A-4882-AB00-BD0E65AFAE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B929C1D9-048A-4882-AB00-BD0E65AFAE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06F001B5-599B-4CD6-918A-B8EF9122B6EF} = {724711D7-28BE-4FD9-B83E-6D050E190FEF}
+		{D0F2A74B-4A9F-4C94-8C61-8EC5CF2230F0} = {4B75FBD9-254F-4C66-8FCD-E8C5C86B03BB}
+		{6CF159A7-DCB4-40ED-9095-09AB039364EE} = {F31E029F-EA05-4700-9691-34D84627AA82}
+		{ACE09F19-DD9E-4515-A487-A6AD56F6BE22} = {F28B4A1E-50A8-48B7-83EC-CBFD4780A1A6}
+		{7D3A543A-B0BB-49B5-AC9E-53FB957D841E} = {147706F2-B650-4413-A682-9185962672A6}
+		{B929C1D9-048A-4882-AB00-BD0E65AFAE1C} = {147706F2-B650-4413-A682-9185962672A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4477F1C2-F0C3-43BC-8FE6-D7554D144FA2}
+	EndGlobalSection
+EndGlobal
