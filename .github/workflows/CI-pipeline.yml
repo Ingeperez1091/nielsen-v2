@@ -40,7 +40,7 @@ jobs:
       run: |
         dotnet tool install -g coverlet.console
         dotnet test ${{env.UNIT_TEST_PROJECT}} --configuration ${{env.BUILD_CONFIG}} --no-restore --no-build --verbosity normal --collect:"XPlat Code Coverage" --results-directory TestResults --logger trx;LogFileName=test_results.trx
-        coverlet TestResults/**/*.dll --format cobertura --output coverage/coverage.xml
+        coverlet TestResults/**/*.dll --target "dotnet" --targetargs "test --no-build" --format cobertura --output coverage/coverage.xml
         echo "Unit tests completed successfully"
         
     - name: Upload dotnet test results
