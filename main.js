@@ -221,54 +221,54 @@ var assemblies = [
   {
     "name": "NielsenChannelsReporting",
     "classes": [
-      { "name": "NielsenChannelsReporting.Functions_GenerateReportAsync_Generated", "rp": "NielsenChannelsReporting_Functions_GenerateReportAsync_Generated.html", "cl": 0, "ucl": 24, "cal": 24, "tl": 0, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Functions_GenerateReportAsync_Generated", "rp": "NielsenChannelsReporting_Functions_GenerateReportAsync_Generated.html", "cl": 0, "ucl": 19, "cal": 19, "tl": 0, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "NielsenChannelsReporting.Application",
     "classes": [
-      { "name": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "rp": "NielsenChannelsReporting.Application_AbstractRestClient.html", "cl": 0, "ucl": 104, "cal": 104, "tl": 174, "cb": 0, "tb": 18, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.ApplicationDI", "rp": "NielsenChannelsReporting.Application_ApplicationDI.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "rp": "NielsenChannelsReporting.Application_AbstractRestClient.html", "cl": 0, "ucl": 91, "cal": 91, "tl": 174, "cb": 0, "tb": 18, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.ApplicationDI", "rp": "NielsenChannelsReporting.Application_ApplicationDI.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Configuration.ChannelReportSettings", "rp": "NielsenChannelsReporting.Application_ChannelReportSettings.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Configuration.NotificationSettings", "rp": "NielsenChannelsReporting.Application_NotificationSettings.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Configuration.UniversalApiSettings", "rp": "NielsenChannelsReporting.Application_UniversalApiSettings.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 8, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Exceptions.ClientException", "rp": "NielsenChannelsReporting.Application_ClientException.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Exceptions.EmailException", "rp": "NielsenChannelsReporting.Application_EmailException.html", "cl": 3, "ucl": 9, "cal": 12, "tl": 25, "cb": 1, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Exceptions.PersistenceException", "rp": "NielsenChannelsReporting.Application_PersistenceException.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 31, "cb": 0, "tb": 6, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Exceptions.ReportBuilderException", "rp": "NielsenChannelsReporting.Application_ReportBuilderException.html", "cl": 0, "ucl": 12, "cal": 12, "tl": 26, "cb": 0, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Extensions.StringExtensions", "rp": "NielsenChannelsReporting.Application_StringExtensions.html", "cl": 24, "ucl": 2, "cal": 26, "tl": 47, "cb": 1, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Mail.AwsMailService", "rp": "NielsenChannelsReporting.Application_AwsMailService.html", "cl": 47, "ucl": 0, "cal": 47, "tl": 71, "cb": 4, "tb": 8, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Models.AwsMailParameters", "rp": "NielsenChannelsReporting.Application_AwsMailParameters.html", "cl": 36, "ucl": 0, "cal": 36, "tl": 58, "cb": 14, "tb": 14, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Exceptions.ClientException", "rp": "NielsenChannelsReporting.Application_ClientException.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Exceptions.EmailException", "rp": "NielsenChannelsReporting.Application_EmailException.html", "cl": 2, "ucl": 6, "cal": 8, "tl": 25, "cb": 1, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Exceptions.PersistenceException", "rp": "NielsenChannelsReporting.Application_PersistenceException.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 31, "cb": 0, "tb": 6, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Exceptions.ReportBuilderException", "rp": "NielsenChannelsReporting.Application_ReportBuilderException.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "cb": 0, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Extensions.StringExtensions", "rp": "NielsenChannelsReporting.Application_StringExtensions.html", "cl": 18, "ucl": 1, "cal": 19, "tl": 47, "cb": 1, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Mail.AwsMailService", "rp": "NielsenChannelsReporting.Application_AwsMailService.html", "cl": 40, "ucl": 0, "cal": 40, "tl": 71, "cb": 4, "tb": 8, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Models.AwsMailParameters", "rp": "NielsenChannelsReporting.Application_AwsMailParameters.html", "cl": 26, "ucl": 0, "cal": 26, "tl": 58, "cb": 14, "tb": 14, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Models.Channel", "rp": "NielsenChannelsReporting.Application_Channel.html", "cl": 8, "ucl": 20, "cal": 28, "tl": 34, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Models.ChannelSet", "rp": "NielsenChannelsReporting.Application_ChannelSet.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Models.ChannelSetAlias", "rp": "NielsenChannelsReporting.Application_ChannelSetAlias.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Models.NielsenChannelsReportLog", "rp": "NielsenChannelsReporting.Application_NielsenChannelsReportLog.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Application.Models.ReportGenerationResult", "rp": "NielsenChannelsReporting.Application_ReportGenerationResult.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Report.NewChannelsReportBuilder", "rp": "NielsenChannelsReporting.Application_NewChannelsReportBuilder.html", "cl": 43, "ucl": 3, "cal": 46, "tl": 76, "cb": 5, "tb": 6, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Services.ChannelReportService", "rp": "NielsenChannelsReporting.Application_ChannelReportService.html", "cl": 0, "ucl": 75, "cal": 75, "tl": 113, "cb": 0, "tb": 12, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Utilities.AwsSecretRetirever", "rp": "NielsenChannelsReporting.Application_AwsSecretRetirever.html", "cl": 0, "ucl": 31, "cal": 31, "tl": 64, "cb": 0, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Application.Utilities.HtmlTemplateFiller", "rp": "NielsenChannelsReporting.Application_HtmlTemplateFiller.html", "cl": 12, "ucl": 2, "cal": 14, "tl": 29, "cb": 3, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Report.NewChannelsReportBuilder", "rp": "NielsenChannelsReporting.Application_NewChannelsReportBuilder.html", "cl": 32, "ucl": 1, "cal": 33, "tl": 76, "cb": 5, "tb": 6, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Services.ChannelReportService", "rp": "NielsenChannelsReporting.Application_ChannelReportService.html", "cl": 0, "ucl": 62, "cal": 62, "tl": 113, "cb": 0, "tb": 12, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Utilities.AwsSecretRetirever", "rp": "NielsenChannelsReporting.Application_AwsSecretRetirever.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 64, "cb": 0, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Application.Utilities.HtmlTemplateFiller", "rp": "NielsenChannelsReporting.Application_HtmlTemplateFiller.html", "cl": 6, "ucl": 1, "cal": 7, "tl": 29, "cb": 3, "tb": 4, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "NielsenChannelsReporting.Domain",
     "classes": [
-      { "name": "NielsenChannelsReporting.Domain.Entities.AddedChannel", "rp": "NielsenChannelsReporting.Domain_AddedChannel.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Domain.Entities.AddedChannel", "rp": "NielsenChannelsReporting.Domain_AddedChannel.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "NielsenChannelsReporting.ExternalAdapters.UniversalAPI",
     "classes": [
-      { "name": "NielsenChannelsReporting.ExternalAdapters.UniversalAPI.Client.UniversalApiClient", "rp": "NielsenChannelsReporting.ExternalAdapters.UniversalAPI_UniversalApiClient.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 33, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.ExternalAdapters.UniversalAPI.Client.UniversalApiClient", "rp": "NielsenChannelsReporting.ExternalAdapters.UniversalAPI_UniversalApiClient.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 33, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
   {
     "name": "NielsenChannelsReporting.Infrastructure.Persistence",
     "classes": [
-      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Contexts.UniversalContext", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_UniversalContext.html", "cl": 0, "ucl": 56, "cal": 56, "tl": 86, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Mappers.EntitiesMapper", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_EntitiesMapper.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Contexts.UniversalContext", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_UniversalContext.html", "cl": 0, "ucl": 51, "cal": 51, "tl": 86, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Mappers.EntitiesMapper", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_EntitiesMapper.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Models.ChannelSet", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_ChannelSet.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 13, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
       { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Models.NielsenChannelsReportLog", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_NielsenChannelsReportLog.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 12, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.PersistenceDI", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_PersistenceDI.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Repositories.ChannelSetRepository", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_ChannelSetRepository.html", "cl": 0, "ucl": 31, "cal": 31, "tl": 71, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Repositories.NielsenChannelsReportLogRepository", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_NielsenChannelsReportLogRepository.html", "cl": 0, "ucl": 33, "cal": 33, "tl": 72, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
-      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.UnitOfWorks.UniversalUnitOfWork", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_UniversalUnitOfWork.html", "cl": 0, "ucl": 34, "cal": 34, "tl": 70, "cb": 0, "tb": 10, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.PersistenceDI", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_PersistenceDI.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Repositories.ChannelSetRepository", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_ChannelSetRepository.html", "cl": 0, "ucl": 22, "cal": 22, "tl": 71, "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.Repositories.NielsenChannelsReportLogRepository", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_NielsenChannelsReportLogRepository.html", "cl": 0, "ucl": 23, "cal": 23, "tl": 72, "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
+      { "name": "NielsenChannelsReporting.Infrastructure.Persistence.UnitOfWorks.UniversalUnitOfWork", "rp": "NielsenChannelsReporting.Infrastructure.Persistence_UniversalUnitOfWork.html", "cl": 0, "ucl": 21, "cal": 21, "tl": 70, "cb": 0, "tb": 10, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
@@ -283,37 +283,37 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Services.ChannelReportService", "reportPath": "NielsenChannelsReporting.Application_ChannelReportService.html", "methodName": "GenerateReportAsync()", "methodShortName": "GenerateReportAsync()", "fileIndex": 0, "line": 37,
+    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Services.ChannelReportService", "reportPath": "NielsenChannelsReporting.Application_ChannelReportService.html", "methodName": "GenerateReportAsync()", "methodShortName": "GenerateReportAsync()", "fileIndex": 0, "line": 38,
     "metrics": [
       { "value": 156, "exceeded": true },
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "reportPath": "NielsenChannelsReporting.Application_AbstractRestClient.html", "methodName": "GetAsync()", "methodShortName": "GetAsync()", "fileIndex": 0, "line": 83,
+    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "reportPath": "NielsenChannelsReporting.Application_AbstractRestClient.html", "methodName": "GetAsync()", "methodShortName": "GetAsync()", "fileIndex": 0, "line": 84,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "NielsenChannelsReporting.Infrastructure.Persistence", "class": "NielsenChannelsReporting.Infrastructure.Persistence.UnitOfWorks.UniversalUnitOfWork", "reportPath": "NielsenChannelsReporting.Infrastructure.Persistence_UniversalUnitOfWork.html", "methodName": "Dispose(System.Boolean)", "methodShortName": "Dispose(...)", "fileIndex": 0, "line": 49,
+    "assembly": "NielsenChannelsReporting.Infrastructure.Persistence", "class": "NielsenChannelsReporting.Infrastructure.Persistence.UnitOfWorks.UniversalUnitOfWork", "reportPath": "NielsenChannelsReporting.Infrastructure.Persistence_UniversalUnitOfWork.html", "methodName": "Dispose(System.Boolean)", "methodShortName": "Dispose(...)", "fileIndex": 0, "line": 50,
     "metrics": [
       { "value": 42, "exceeded": true },
       { "value": 6, "exceeded": false },
     ]},
   {
-    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "reportPath": "NielsenChannelsReporting.Application_AbstractRestClient.html", "methodName": "ConfigureRetryPolicy()", "methodShortName": "ConfigureRetryPolicy()", "fileIndex": 0, "line": 40,
+    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "reportPath": "NielsenChannelsReporting.Application_AbstractRestClient.html", "methodName": "ConfigureRetryPolicy()", "methodShortName": "ConfigureRetryPolicy()", "fileIndex": 0, "line": 41,
     "metrics": [
       { "value": 20, "exceeded": true },
       { "value": 4, "exceeded": false },
     ]},
   {
-    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "reportPath": "NielsenChannelsReporting.Application_AbstractRestClient.html", "methodName": "PostAsync()", "methodShortName": "PostAsync()", "fileIndex": 0, "line": 109,
+    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Abstractions.ExternalAdapters.AbstractRestClient", "reportPath": "NielsenChannelsReporting.Application_AbstractRestClient.html", "methodName": "PostAsync()", "methodShortName": "PostAsync()", "fileIndex": 0, "line": 110,
     "metrics": [
       { "value": 20, "exceeded": true },
       { "value": 4, "exceeded": false },
     ]},
   {
-    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Utilities.AwsSecretRetirever", "reportPath": "NielsenChannelsReporting.Application_AwsSecretRetirever.html", "methodName": "GetSecretValueFromKeyAsync()", "methodShortName": "GetSecretValueFromKeyAsync()", "fileIndex": 0, "line": 12,
+    "assembly": "NielsenChannelsReporting.Application", "class": "NielsenChannelsReporting.Application.Utilities.AwsSecretRetirever", "reportPath": "NielsenChannelsReporting.Application_AwsSecretRetirever.html", "methodName": "GetSecretValueFromKeyAsync()", "methodShortName": "GetSecretValueFromKeyAsync()", "fileIndex": 0, "line": 13,
     "metrics": [
       { "value": 20, "exceeded": true },
       { "value": 4, "exceeded": false },
